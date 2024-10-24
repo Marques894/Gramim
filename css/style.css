@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/*--------------------------header------------------------------*/
+
+header {}
+
+#gramim_logo h3 {
+    margin: 0;
+}
+
+#bar-search {
+    border: solid 1px black;
+}
+
+#btn-search {
+    color: #863636;
+    border-color: #863636;
+}
+
+#btn-search:hover {
+    background-color: #86363652;
+    color: black;
+}
+
+#access:hover {
+    border-bottom: solid 1px #863636;
+}
+
+@media (max-width: 768px) {
+    #gramim_logo img {
+        width: 40px;
+    }
+
+    #dropdown-menu {
+        border: none;
+
+    }
+}
+
+/*--------------------------header------------------------------*/
+
+/*--------------------------main------------------------------*/
+
+#carrosel {
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+#container-cards {
+    padding-bottom: 40px;
+}
+
+#card{
+    width: 15%;
+}
+
+#info {
+    border-top: solid 1px #333;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+@media (max-width: 768px) {
+
+    #info {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #box-cards{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    #card{
+        width: 50%;
+    }
+}
+
+/*--------------------------main------------------------------*/
+
+/*--------------------------footer------------------------------*/
+
+footer {
+    border-top: solid 1px #333;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    /*background-color: #333;
+    color: white;*/
+    text-align: center;
+    padding: 40px;
+}
+
+#icon-redes {
+    color: #863636;
+}
+
+
+/*--------------------------footer------------------------------*/
+
+/*--------------------------responsive------------------------------*/
+
+@media (max-width: 768px) {}
+
+/*--------------------------responsive------------------------------*/
